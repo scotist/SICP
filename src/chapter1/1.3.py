@@ -1,4 +1,11 @@
-"""Make a function that takes three numbers as parameters and returns
-   the sum of the squares of the two larger numbers."""
+"""Sum of squares of two largest inputs."""
 
-def
+
+def square(n):
+    """Given a number, return its square."""
+    return n * n
+
+
+def sum_of_squares(x, y):
+    """Return sum of squares of parameters."""
+    return square(x) + square(y)
