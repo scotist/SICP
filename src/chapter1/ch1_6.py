@@ -25,3 +25,7 @@ def sqrt_iter(guess, num):
         return guess
     else:
         return sqrt_iter(improve(guess, num), num)
+
+# This module works very well when the number and its root are both integers;
+# otherwise Python doesn't handle the necessary recursion well at all.
+# Scheme and Python are not equally good tools for this approach!
